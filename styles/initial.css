@@ -25,7 +25,7 @@
     --width-memory: 0; 
     --width-verbal: 0;
     --width-visual: 0;
-    --opacity: 0;
+    --opacity: 0.5;
 }
 
 * {
