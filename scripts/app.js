@@ -8,5 +8,6 @@ setTimeout(() => {
 }, 100);
 
 setTimeout(() => {
+    document.querySelector('.result-score-total').textContent = '76';
     document.documentElement.style.setProperty(`--opacity`, '1');
 }, 1000);
