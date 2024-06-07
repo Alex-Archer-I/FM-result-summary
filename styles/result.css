@@ -1,0 +1,41 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+    border-radius: 20px;
+}
+
+.result-title {
+    text-align: center;
+    color: var(--light-lavender);
+}
+
+.result-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    background: linear-gradient(var(--violet-blue), var(--persian-blue));
+}
+
+.result-score-total {
+    font-size: calc(3 * var(--font-size));
+    color: var(--white);
+    opacity: var(--opacity);
+    transition: opacity 0.5s;
+}
+
+.result-score-of {
+    opacity: 0.5;
+}
+
+.result-text-big {
+    color: var(--white);
+    font-size: calc(2 * var(--font-size));
+}
